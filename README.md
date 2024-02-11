@@ -6,7 +6,7 @@ My [programming.in.th](https://programming.in.th) submissions.
 
 ## Utils
 
-- `.\cm {filename without .extension}` to compile cpp code using g++ and put the binary in `bin` folder.
+- `.\cm {filename without .extension}` to compile submission and put the binary in `bin` folder.
 - `.\cmall` to compile all files in `src`.
 - `.\ns {name} {extension/lang e.g. cc, rs}` to create new code file from template.
 
