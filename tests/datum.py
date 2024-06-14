@@ -18,7 +18,7 @@ for m in range(1, 13):
     for d in range(1, days_in_month[m-1] + 1):
         expected_day = get_day_of_week(d, m)
         actual_day = run(d, m)
-        if day_mapping[expected_day] != actual_day:
+        if expected_day != actual_day:
             print(f"Error on {d} {m}: Expected {expected_day}, got {actual_day}")
             errors += 1
 
