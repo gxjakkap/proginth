@@ -1,0 +1,18 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "4\ntoppykung\nkrittisakchaiyakul\nnoob\nnakornpathom",
+            "expect": "krittisakchaiyakul\nnakornpathom\nnoob\ntoppykung"
+        },
+        {
+            "input": "6\nmai\nhen\nlongsob\nma\npid\nsala",
+            "expect": "hen\nlongsob\nma\nmai\npid\nsala"
+        },
+        {
+            "input": "6\nmaidai\nleoi\nmaidai\ntong\nmaidai\nnakornpathom",
+            "expect": "leoi\nmaidai\nnakornpathom\ntong"
+        }
+    ]
+}
